@@ -1,0 +1,38 @@
+[
+  {
+    "model": "LogisticRegression",
+    "accuracy": 0.8048,
+    "precision": 0.6552,
+    "recall": 0.5588,
+    "f1_score": 0.6032,
+    "roc_auc": 0.8412,
+    "best_params": {
+      "C": 10
+    }
+  },
+  {
+    "model": "RandomForest",
+    "accuracy": 0.7949,
+    "precision": 0.6721,
+    "recall": 0.4439,
+    "f1_score": 0.5346,
+    "roc_auc": 0.8432,
+    "best_params": {
+      "max_depth": 6,
+      "n_estimators": 400
+    }
+  },
+  {
+    "model": "XGBoost",
+    "accuracy": 0.8041,
+    "precision": 0.6701,
+    "recall": 0.516,
+    "f1_score": 0.5831,
+    "roc_auc": 0.8449,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 200
+    }
+  }
+]
